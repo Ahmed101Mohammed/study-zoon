@@ -1,0 +1,188 @@
+/* start:Standard Style */
+*{
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
+
+}
+a{
+  text-decoration: none;
+
+}
+/* end: Standard Style */
+/* start: vars */
+:root{
+  --main-color: #4CEFB9;
+  --full-width: 1536px;
+  --light-of-main-color: #C5FAE8;
+}
+/*  end: vars */
+/* start:top */
+.top{
+  width: var(--full-width);
+  height: 424px;
+  background-color: var(--light-of-main-color);
+  display: flex;
+  justify-content: center;
+}
+.top::after{
+  content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border: 55px var(--main-color) solid;
+    border-color: transparent transparent var(--main-color);
+    top: 37%;
+    right: 320px;
+}
+
+.top::before{
+  content: "";
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background-color: transparent;
+    bottom: 55%;
+    left: 339px;
+    border: 7px var(--main-color) solid;
+    border-radius: 50%;
+}
+
+.top .container{
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.top .container::after{
+  content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 7px var(--main-color) solid;
+    top: 7%;
+    right: 550px;
+}
+
+.top .container::before{
+  content: "";
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    border: 7px var(--main-color) solid;
+    top: 16%;
+    left: 550px;
+    border-radius: 50%;
+}
+/* end:top */
+/* start:sign_form */
+.top .container .sign{
+  width: 633px;
+    height: auto;
+    padding: 42px;
+    background-color: var(--main-color);
+    position: relative;
+    top: 233px;
+    border-radius: 33px;
+    box-shadow: 6px 6px 25px -9px #e05f89;
+}
+.top .container .sign:hover{
+  box-shadow:none;
+}
+.top .container .sign form .email{
+  display: block;
+    margin-bottom: 10px;
+    height: 38px;
+    width: 527px;
+    position: relative;
+    left: 13px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    color: #E05F89;
+    outline: none;
+    font-size: 22px;
+}
+.top .container .sign::before{
+  content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 10px red solid);
+    border-width: 6px;
+    border-style: solid;
+    border-color: var(--light-of-main-color);
+    bottom: 84px;
+    left: 347px;
+    border-radius: 50%;
+}
+
+.top .container .sign form .password{
+  display: block;
+  font-size: 22px;
+    margin-bottom: 10px;
+    height: 38px;
+    width: 527px;
+    position: relative;
+    left: 13px;
+    margin-top: 89px;
+    border: none;
+    padding-left: 20px;
+    border-radius: 8px;
+    color: #E05F89;
+    outline: none;
+}
+
+.top .container .sign form .forget{
+  display: block;
+    position: relative;
+    font-size: 12px;
+    color: #FFFFFF;
+    left: 13px;
+}
+.top .container .sign::after{
+  content: "";
+position: absolute;
+width: 50px;
+height: 50px;
+background-color: transparent;
+border: 10px red solid);
+border-width: 6px;
+border-style: solid;
+border-color: var(--light-of-main-color);
+top: 84px;
+left: 62px;
+}
+.top .container .sign form .new{
+  position: absolute;
+    bottom: 26px;
+    color: #FFFFFF;
+    font-size: 29px;
+}
+
+.top .container .sign form .new:active{
+  text-decoration: underline;
+}
+
+.top .container .sign form .sign-in{
+  position: absolute;
+    right: 50px;
+    bottom: 26px;
+    width: 126px;
+    height: 39px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E05F89;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #9c7979;
+    font-size: 20px;
+}
+
+.top .container .sign form .sign-in:active{
+    box-shadow:none;
+}
+/* start:sign_form */

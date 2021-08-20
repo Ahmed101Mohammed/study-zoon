@@ -1,0 +1,210 @@
+/* start:Standard Style */
+*{
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  scroll-behavior: smooth;
+
+}
+a{
+  text-decoration: none;
+
+}
+body,html{
+  width: 100%;
+}
+/* end: Standard Style */
+/* start: vars */
+:root{
+  --main-icons-color: #4CEFB9;
+  --full-width: 1519px;
+}
+/*  end: vars */
+/* start:top part style */
+.top{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.top .container header{
+  width: 100%;
+      height: 56px;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.top .container header .icons{
+  display: inline-block;
+    font-size: 35px;
+    line-height: 0px;
+    color: var(--main-icons-color);
+
+}
+.top .container header .icons i{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.top .container header .search{
+  display: inline-block;
+  position: relative;
+    left: -68px;
+}
+.top .container header .search form input{
+  width: 288px;
+      height: 32px;
+      display: inline-block;
+      outline: none;
+      border: none;
+      border-bottom: 2px #E05F89 solid;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 19px;
+      margin-right: 0px;
+      position: relative;
+  }
+
+  .top .container header .search form{
+    display: inline-block;
+  }
+  .top .container header .search .search-icon{
+    width: 56px;
+    height: 32px;
+    display: inline-block;
+    margin-left: -4px;
+    position: absolute;
+    background-color: var(--main-icons-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #c81e56;
+    cursor: pointer;
+  }
+
+/* end:top pqrt style */
+/* Start: Parent */
+.parent{
+  display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent .want{
+  width: 100%;
+      height: 170px;
+      background-color: var(--main-icons-color);
+}
+
+.parent .personal-photo{
+  width: 220px;
+      height: 220px;
+      position: absolute;
+      border-radius: 50%;
+      background-image: url(../photos/PerPhoto.jpg);
+      background-size: 47vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.parent nav{
+  width: 100%;
+      height: 150px;
+      background-color: #FAFAFA;
+}
+
+.parent nav .container{
+  height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.parent nav .container .nav-list ul{
+  list-style: none;
+      margin: 0px;
+      font-size: 20px;
+      margin-bottom: 14px;
+      padding: 0px 10px;
+      color: #E05F89;
+}
+
+.parent nav .container .nav-list ul li{
+  display: inline-block;
+    width: 70px;
+    text-align: center;
+    border-width: 0px 2px 0px 2px;
+    border-style: solid;
+    border-color: #ff000000;
+    cursor: pointer;
+}
+
+.parent nav .container .nav-list ul li:hover{
+    border-color: #000000;
+}
+/* End: parent */
+
+/* Start: Article */
+.article-back {
+  width: 100%;
+    margin: 50px 0px 50px 0px;
+    height: 110px;
+}
+
+.article-back .container{
+  height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.article-back .container .article{
+  width: 100%;
+    height: 60%;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.article-back .container .article .personal-photo{
+  width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../photos/PerPhoto.jpg);
+    background-size: 11vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.article-back .container .article form input{
+  width: 858px;
+    height: 42px;
+    border-color: #70707066;
+    outline: none;
+    border-radius: 17px;
+    padding-left: 15px;
+    margin-left: 10px;
+    font-size: 19px;
+    color: #000000e3;
+
+}
+/* End: Article */
+
+/* Start: User Articles */
+.user-articles{
+  width: 100%;
+}
+
+.user-articles .container{
+  padding: 20px;
+}
+/* End: User Articles */

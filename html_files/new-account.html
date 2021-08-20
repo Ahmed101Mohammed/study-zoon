@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <!-- Normlyze Style -->
+    <link rel="stylesheet" href="..\css_files\normalize.css">
+    <!-- Page style -->
+    <link rel="stylesheet" href="..\css_files\new-account.css">
+    <!-- Fonts Style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Fonts style 2 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- title-->
+    <title>Study Zoon: New account</title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="container">
+        <div class="sign">
+          <form action="personal-page.html">
+            <input type="text" name="user-name" placeholder="Your Name" class="user-name required">
+            <input name="email" type="email" placeholder="YourEmail@___.com" class="email required"/>
+            <input name="password" type="password" placeholder="Password" class="password required"/>
+            <select class="t-or-s" name="kind" required>
+              <option disabled selected hidden>T/S</option>
+              <option value="teatcher">Teatcher</option>
+              <option value="student">Student</option>
+            </select>
+            <input name="email-check" type="email" placeholder="YourCheckEmail@___.com" class="email-check" required/>
+
+            <input type="checkbox" name="agree" class="agree" required>
+            <label for="">I agree to the terms of service</label>
+            <input name="sign" type="submit" value="Create" class="sign-in"/>
+          <form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+    </div>
+  </body>
+</html>

@@ -1,2 +1,2 @@
 # study-zoon
-This project for Teacher  and Students platform design.
+This project for Teacher  and Students.
